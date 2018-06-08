@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "lua-libmodbus"
 version = "0.3-1"
--- LuaDist source
 source = {
-  tag = "0.3-1",
-  url = "git://github.com/LuaDist-testing/lua-libmodbus.git"
+	url = "git://github.com/remakeelectric/lua-libmodbus",
+	tag = "v0.3"
 }
--- Original source
--- source = {
--- 	url = "git://github.com/remakeelectric/lua-libmodbus",
--- 	tag = "v0.3"
--- }
 description = {
 	summary = "Lua bindings to libmodbus",
 	detailed = [[
@@ -44,3 +36,4 @@ build = {
 		}
 	}
 }
+
